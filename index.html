@@ -34,7 +34,32 @@
           text-decoration: none; /* on hover, underline goes away */
         }
         
-        
+        table.my-table{
+          border-collapse: collapse;
+          font-family: Tahoma, Geneva, sans-serif;
+          }
+       
+
+        table td {
+          padding: 15px;
+        }
+        table thead td {
+          background-color: #54585d;
+          color: #ffffff;
+          font-weight: bold;
+          font-size: 13px;
+          border: 1px solid #54585d;
+        }
+        table tbody td {
+          color: #636363;
+          border: 1px solid #dddfe1;
+        }
+        table tbody tr {
+          background-color: #f9fafb;
+        }
+        table tbody tr:nth-child(odd) {
+          background-color: #ffffff;
+        }
 
         footer{
           text-align:center;
@@ -54,7 +79,8 @@
           <li><a href="#">Link 6</a></li>
       </ul>
    </nav>
-    <table>
+    
+   <table class = "my-table">
         <tr>
           <th> First Name</th>
           <th> Last Name</th>
